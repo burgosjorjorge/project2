@@ -45,11 +45,11 @@ Navigation Layout Style
 
 .name {
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .main-nav li {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .main-nav a,
@@ -248,9 +248,23 @@ Media Queries
 }
 
 @media (min-width: 1024px) {
-    .container {
-        width: 80%;
-        margin: 0 auto;
+    
+    body {
+        margin-top: 0;
+    }
+    
+    .name {
+        float: left;
+        margin-top: 10px;
+           
+    }
+
+    .main-nav li,
+    .main-nav {
+        float: right;
+        margin-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 40px;
     }
 
     .col-2,
@@ -271,6 +285,34 @@ Media Queries
         width: 30%;
         float: right;
     }
+
+    .bot-student {
+        position: absolute;
+        left: 0;
+    }
+
+    .bot-contact {
+        position: absolute;
+        right: 40px;
+    }
+
+    .bot-portfolio {
+        position: absolute;
+        right: 120px;
+    }
+
+    .bot-home {
+        position: absolute;
+        right: 210px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
 }
     
 
