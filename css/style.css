@@ -24,6 +24,10 @@ li {
     list-style: none;
 }
 
+p {
+    font-size: 18px;
+}
+
 /* ========================
 Navigation Layout Style
 =========================== */
@@ -103,7 +107,7 @@ Basic Layout Container
 
 .main-footer li {
     background: #808080;
-    margin: 0 350px;
+    margin: 0 150px;
     border-radius: 5px;
 }
 
@@ -115,6 +119,8 @@ Basic Layout Container
 
 .self-img {
     width: 100%;
+    padding: 10px;
+    border: solid orange 2px;
     border-radius: 50%;
 }
 
@@ -125,6 +131,9 @@ Basic Layout Container
 .img-5,
 .img-6 {
     width: 100%;
+    padding: 10px;
+    border: solid orange 2px;
+    border-radius: 10px;
 }
 
 /* ========================
