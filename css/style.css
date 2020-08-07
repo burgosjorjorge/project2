@@ -34,7 +34,9 @@ Navigation Layout Style
 =========================== */
 
 .main-nav {
-    background: #ffa500;
+    background-image: url(../images/sadHillCementary.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .name {
