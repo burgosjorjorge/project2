@@ -56,8 +56,12 @@ Navigation Layout Style
 .name {
     text-shadow: 2px 2px 2px #808080;
     font-family: sans-serif;
-    color: #fff;
     text-decoration: none;
+    margin: 25px 0;
+    display: block;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .bottom-nav li {
@@ -169,6 +173,17 @@ Media Queries
         margin: 0 auto;
     }
 
+    .main-nav li,
+    .name,
+    .main-nav {
+        display: inline-block;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .main-nav a {
+        background: rgb(212, 214, 221);
+    }
     .self-img {
         width: 250px;
         float: right;
