@@ -45,6 +45,12 @@ Navigation Layout Style
     font-size: 25px;
 }
 
+.main-nav a,
+.name {
+    text-shadow: 2px 2px 0 #808080;
+    font-family: sans-serif;
+}
+
 .bottom-nav li {
     background:#ffa500;
     margin: 4px 5px;
