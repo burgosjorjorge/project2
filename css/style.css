@@ -194,6 +194,23 @@ Media Queries
         margin-bottom: 100px;
     }
 
+
+    .col-2,
+    .col-4,
+    .col-6 {
+        width: 48%;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .col-3,
+    .col-5,
+    .col-7 {
+        width: 48%;
+        float: right;
+        margin-left: 5px;
+    }
+
     
 }
     
