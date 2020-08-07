@@ -13,6 +13,7 @@ Basic Selector Style
 body {
     color: #000;
     line-height: 1.6;
+    top: 0;
 }
 
 h2,
@@ -35,8 +36,10 @@ Navigation Layout Style
 
 .main-nav {
     background-image: url(../images/sadHillCementary.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: cover no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100%;
 }
 
 .name {
