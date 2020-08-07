@@ -26,6 +26,7 @@ li {
 
 p {
     font-size: 18px;
+    font-family: sans-serif;
 }
 
 /* ========================
@@ -47,7 +48,7 @@ Navigation Layout Style
 
 .main-nav a,
 .name {
-    text-shadow: 2px 2px 0 #808080;
+    text-shadow: 2px 2px 2px #808080;
     font-family: sans-serif;
 }
 
@@ -128,6 +129,7 @@ Basic Layout Container
     padding: 10px;
     border: solid orange 2px;
     border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(158, 47, 27, 0.897);
 }
 
 .img-1,
@@ -140,6 +142,7 @@ Basic Layout Container
     padding: 10px;
     border: solid orange 2px;
     border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(158, 47, 27, 0.897);
 }
 
 /* ========================
