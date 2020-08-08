@@ -9,9 +9,9 @@
 </head>
 <body>
   <header class="main-nav" id="top-page">
-    <div class="container">
+    <div class="container clearfix">
       <h1 class="name">Jorge Burgos</h1>
-      <ul>
+      <ul class="header-nav">
           <li><a href="#top-page">Home</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -19,7 +19,7 @@
     </div> <!-- Container -->
   </header>
 
-    <div class="container">
+  <div class="container clearfix">
       <div class="col-1">
         <img class="self-img" src="images/theGood.jpg" alt="portfolio image" id="portfolio">
         <p>Hello my name is Jorge Burgos and I am a front-end developer student
@@ -30,24 +30,46 @@
       </div>  <!--Col-1-->
       
         <h2>Portfolio</h2>
-        <h3>First Image</h3>
+      <div class="col-2">  
         <img class="img-1" src="images/portfolio-1.png" alt="first image">
-        <p>This is the first image in the page. It will contain 100% width at 320png</p>
-        <h3>Second Image</h3>
+        <h3>First Image</h3>
+        <p>This is the first image in the page. It will contain 100% width at 320png,
+          top-left at 768 and 1024png.
+        </p>
+      </div>  <!--Col-2-->  
+      <div class="col-3">
         <img class="img-2" src="images/portfolio-2.png" alt="second image">
-        <p>This is the second image in the page. It will contain 100% width at 320png</p>
-        <h3>Third Image</h3>
+        <h3>Second Image</h3>
+        <p>This is the second image in the page. It will contain 100% width at 320png,
+          top-right at 768png and top-center at 1024png.
+        </p>
+      </div>  <!--Col-3-->
+      <div class="col-4">
         <img class="img-3" src="images/portfolio-3.png" alt="third image">
-        <p>This is the third image in the page. It will contain 100% width at 320png</p>
-        <h3>Fourth Image</h3>
+        <h3>Third Image</h3>
+        <p>This is the third image in the page. It will contain 100% width at 320png,
+          second row-left at 768png and top-right at 1024png.
+        </p>
+      </div>  <!--Col-4-->
+      <div class="col-5">
         <img class="img-4" src="images/portfolio-4.png" alt="fourth image">
-        <p>This is the fourth image in the page. It will contain 100% width at 320png</p>
-        <h3>Fifth Image</h3>
+        <h3>Fourth Image</h3>
+        <p>This is the fourth image in the page. It will contain 100% width at 320png,
+          second row-right at 768png and bottom-left at 1024png.
+        </p>
+      </div>  <!--Col-5-->
+      <div class="col-6">
         <img class="img-5" src="images/portfolio-5.png" alt="fifth image">
-        <p>This is the fifth image in the page. It will contain 100% width at 320png</p>
-        <h3>Sixth Image</h3>
+        <h3>Fifth Image</h3>
+        <p>This is the fifth image in the page. It will contain 100% width at 320png,
+          third row-left at 768png and bottom-center at 1024png.
+        </p>
+      </div>  <!--Col-6-->
+      <div class="col-7">
         <img class="img-6" src="images/portfolio-6.png" alt="sixth image">
+        <h3>Sixth Image</h3>
         <p>This is the sixth image in the page. It will contain 100% width at 320png</p>
+      </div>  <!--Col-7-->
   </div> <!-- Container -->
 
 <footer class="main-footer">
@@ -57,12 +79,14 @@
     <li><a href="mailto:www.jorgeburgosjr69@gmail.com" target ="">Email</a></li>
 </footer>
   
-    <ul class="bottom-nav container">
+    <ul class="bottom-nav">
+      <!-- <div class="container"> -->
         <li class="bot-student"><a href="#">Student Name</a></li>
         <li class="bot-home"><a href="#">Home</a></li>
         <li class="bot-portfolio"><a href="#">Portfolio</a></li>
         <li class="bot-contact"><a href="#">Contact</a></li>
         <li class="bot-backTop"><a href="#">Back to Top</a></li>
+      <!-- </div> -->
     </ul>
   
 </body>
