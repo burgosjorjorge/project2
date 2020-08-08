@@ -209,21 +209,49 @@ Media Queries
     }
 
 
-    .col-2,
-    .col-4,
-    .col-6 {
+    .col-2 {
         width: 48%;
         float: left;
         margin-right: 5px;
+        
     }
 
-    .col-3,
-    .col-5,
+    .col-3 {
+        width: 48%;
+        float: right;
+        margin-left: 5px;
+        
+    }
+
+    .col-4 {
+        width: 48%;
+        float: left;
+        margin-right: 5px;
+        margin-top: 25px;
+    }
+
+    .col-5 {
+        width: 48%;
+        float: right;
+        margin-left: 5px;
+        margin-top: 0;    
+    }
+
+    .col-6 {
+        width: 48%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 0; 
+    }
+
     .col-7 {
         width: 48%;
         float: right;
         margin-left: 5px;
+        margin-top: 0; 
     }
+
+    
 
     .bottom-nav a {
         font-size: 15px;    
@@ -280,11 +308,12 @@ Media Queries
         padding-bottom: 40px;
     }
 
+    
     .col-2,
     .col-5 {
         width: 30%;
         float: left;
-        margin-right: 30px;
+        margin-right: 40px;
     }
 
     .col-3,
@@ -297,6 +326,7 @@ Media Queries
     .col-7 {
         width: 30%;
         float: right;
+        margin-top: 0;
     }
 
     .bot-student {
