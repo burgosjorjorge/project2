@@ -6,6 +6,23 @@ Global Layout
     box-sizing: border-box;
 }
 
+
+/* ========================
+Fonts
+=========================== */
+
+h1,
+h2,
+h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+
 /* ========================
 Basic Selector Style
 =========================== */
@@ -25,10 +42,6 @@ li {
     list-style: none;
 }
 
-p {
-    font-size: 18px;
-    font-family: sans-serif;
-}
 
 /* ========================
 Navigation Layout Style
@@ -36,8 +49,9 @@ Navigation Layout Style
 
 .main-nav {
     background-image: url(../images/sadHillCementary.jpg);
-    background: cover no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     width: 100%;
     top: 0;
@@ -55,7 +69,6 @@ Navigation Layout Style
 .main-nav a,
 .name {
     text-shadow: 2px 2px 2px #808080;
-    font-family: sans-serif;
     text-decoration: none;
     margin: 25px 0;
     display: block;
